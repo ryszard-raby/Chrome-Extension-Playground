@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ TestScript)\n/* harmony export */ });\nclass TestScript {\r\n  init() {\r\n    console.log('👾 Hello World from Chrome Extension Playground');\r\n  }\r\n}\n\n//# sourceURL=webpack://playground/./src/test/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ TestScript)\n/* harmony export */ });\nclass TestScript {\r\n  init() {\r\n    console.log('👾 Hello World from Chrome Extension Playground'); \r\n  }\r\n}\n\n//# sourceURL=webpack://playground/./src/test/test.js?");
 
 /***/ })
 
