@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "👾 Chrome Playground",
+    "version": "1.0.0",
+    "description": "Google Chrome Playground",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "alien-monster.png",
+        "default_title": "Chrome Playground",
+        "default_popup": "./popup/popup.html"
+    }
+}
